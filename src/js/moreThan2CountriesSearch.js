@@ -1,4 +1,4 @@
-export function moreThan2CountriesSearch(elements) {
+export function moreThan2CountriesSearch(elements, countryList, countryInfo) {
   countryList.innerHTML = '';
   countryInfo.innerHTML = '';
 

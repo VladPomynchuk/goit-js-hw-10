@@ -1,6 +1,8 @@
-export function showError() {
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
+export function showError(countryList, countryInfo) {
   countryList.innerHTML = '';
   countryInfo.innerHTML = '';
-  console.log('Ловим ошибку');
   Notify.failure('Oops, there is no country with that name');
+  console.log('Срабатывает catch');
 }

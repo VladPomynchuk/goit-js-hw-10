@@ -1,5 +1,4 @@
-export function oneCountrySearch([el]) {
-  console.log(el);
+export function oneCountrySearch([el], countryList, countryInfo) {
   countryList.innerHTML = '';
   countryInfo.innerHTML = '';
   const oneCountry = `<li style="list-style: none">

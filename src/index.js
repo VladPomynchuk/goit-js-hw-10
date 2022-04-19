@@ -18,6 +18,8 @@ function onInput(e) {
   const searchValue = e.target.value.trim();
 
   if (searchValue === '') {
+    countryList.innerHTML = '';
+    countryInfo.innerHTML = '';
     return;
   }
 

@@ -32,5 +32,7 @@ function onInput(e) {
         oneCountrySearch(array, countryList, countryInfo);
       }
     })
-    .catch(showError(countryList, countryInfo));
+    .catch(error => {
+      showError(countryList, countryInfo);
+    });
 }
